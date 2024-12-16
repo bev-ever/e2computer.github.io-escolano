@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:#F2F9FF;
+    background-image: url(image3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width:100vw;
+    height:100vh;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+header {
+    padding-left: 220px;
+    padding-right: 220px;
+    height: 120px;
+    text-align: center;
+}
+
+header h3 {
+    font-size: 70px;
+    color: rgb(181, 93, 21);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color:#351e0bb8;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(239, 159, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+nav a:visited {
+    color:rgb(239, 159, 84);
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+nav a:hover {
+    color:#ffbc90;
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+nav a:active {
+    color:rgb(239, 159, 84);
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+ 
+main {
+    height: 400px; 
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+main h1 {
+    font-size: 85px;
+    color: rgb(239, 159, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main h2 {
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main p {
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(255, 198, 164);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.play img {
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color:#fff5d7b7;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: rgb(83, 48, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 15px;
+    border-radius: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(181, 93, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ 
+footer a:visited {
+    color:rgb(83, 48, 15);
+    background-color: transparent;
+    text-decoration: none;
+}
+ 
+footer a:hover {
+    color:rgb(181, 93, 21);
+    background-color: transparent;
+    text-decoration: underline;
+}
+ 
+footer a:active {
+    color:rgb(83, 48, 15);
+    background-color: transparent;
+    text-decoration: underline;
+}
